@@ -1,0 +1,37 @@
+{
+  "name": "es2017-starter",
+  "description": "EcmaScript 2017 Starter Pack",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bettiolo/es2017-starter.git"
+  },
+  "engines": {
+    "node": "5"
+  },
+  "scripts": {
+    "dev": "nodemon --watch ./ --exec npm start",
+    "start": "DEBUG=app,app:* node ./index.js",
+    "lint": "echo 'Linting...' && eslint --cache ./"
+  },
+  "private": true,
+  "dependencies": {
+    "babel-core": "^6.4.5",
+    "babel-plugin-syntax-async-functions": "^6.3.13",
+    "babel-plugin-transform-async-to-generator": "^6.4.6",
+    "babel-plugin-transform-class-properties": "^6.4.0",
+    "babel-polyfill": "^6.3.14",
+    "babel-preset-es2015": "^6.3.13",
+    "debug": "^2.2.0",
+    "node-fetch": "^1.3.3"
+  },
+  "devDependencies": {
+    "babel-eslint": "^5.0.0-beta9",
+    "eslint": "^1.10.3",
+    "eslint-config-airbnb": "^5.0.0",
+    "eslint-plugin-babel": "^3.1.0",
+    "eslint-plugin-react": "^3.16.1",
+    "nodemon": "^1.8.1"
+  }
+}

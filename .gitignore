@@ -1,0 +1,9 @@
+/.idea/
+/npm-debug.log
+/node_modules/
+/*.DS_Store
+/manifest.json
+/.eslintcache
+
+dist/
+src/css/*.css
