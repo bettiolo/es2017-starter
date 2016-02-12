@@ -1,2 +1,2 @@
 # es2017-starter
-EcmaScript 2017 Starter Pack
+ECMAScript 2017 Starter Pack with Linting
