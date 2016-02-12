@@ -3,13 +3,9 @@
 import debug from 'debug';
 const log = debug('app:example');
 
-export default function() {
-  fancyFoo().then(log);
-}
-
 async function asyncTimeout(delay = 100) {
   log(`Waiting for ${delay}ms`);
-  return new Promise((resolve, reject) => {
+  return new Promise((resolve) => {
     setTimeout(() => {
       log(`Timeout: ${delay}ms`);
       resolve();
@@ -21,3 +17,5 @@ async function fancyFoo() {
   await asyncTimeout(100);
   return 'Async FOO :)';
 }
+
+export default () => fancyFoo().then(log);
