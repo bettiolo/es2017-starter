@@ -1,6 +1,8 @@
 # es2017-starter
 ECMAScript 2017 Starter Pack with Linting
 
+Will support all [stage4 proposals](https://github.com/tc39/ecma262/blob/master/README.md)
+
 ### Links:
 - [ECMAScript process](http://www.2ality.com/2015/11/tc39-process.html)
 - [Final feature set of ES2016](http://www.2ality.com/2016/01/ecmascript-2016.html)
