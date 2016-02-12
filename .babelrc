@@ -1,4 +1,3 @@
 {
-  "presets": ["es2015"],
-  "plugins": ["transform-class-properties", "syntax-async-functions", "transform-async-to-generator"]
+  "presets": ["node5"]
 }
