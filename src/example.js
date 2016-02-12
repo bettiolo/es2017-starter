@@ -1,3 +1,5 @@
+// Module Syntax + Async example
+
 import debug from 'debug';
 const log = debug('app:example');
 
