@@ -1,7 +1,17 @@
 # es2017-starter
 ECMAScript 2017 Starter Pack with Linting
 
-Will support all [stage4 proposals](https://github.com/tc39/ecma262/blob/master/README.md)
+Support for [stage4/stage3 proposals](https://github.com/tc39/ecma262/blob/master/README.md):
+- [x] [Array.prototype.includes](http://www.2ality.com/2016/02/array-prototype-includes.html) 
+      | [babel-plugin-array-includes](https://www.npmjs.com/package/babel-plugin-array-includes)
+- [x] [Exponentiation Operator](http://www.2ality.com/2016/02/exponentiation-operator.html)
+      | [transform-exponentiation-operator](https://babeljs.io/docs/plugins/transform-exponentiation-operator/)
+- [ ] SIMD.JS
+- [x] [Async Functions](http://www.2ality.com/2016/02/async-functions.html)
+- [ ] Object.values/Object.entries
+- [ ] String padding
+- [ ] Trailing commas in function parameter lists and calls
+- [ ] Object.getOwnPropertyDescriptors
 
 ### Links:
 - [ECMAScript process](http://www.2ality.com/2015/11/tc39-process.html)
