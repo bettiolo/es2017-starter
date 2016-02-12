@@ -1,5 +1,5 @@
 # es2017-starter
-ECMAScript 2017 Starter Pack with Linting
+Node 5 ECMAScript 2017 Starter Pack, with ESLint rules
 
 Support for [stage4/stage3 proposals](https://github.com/tc39/ecma262/blob/master/README.md):
 - [x] [Array.prototype.includes](http://www.2ality.com/2016/02/array-prototype-includes.html) 
