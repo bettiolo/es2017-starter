@@ -4,7 +4,7 @@ import debug from 'debug';
 const log = debug('app:example');
 
 export default function() {
-  fancyFoo().then(message => log(message));
+  fancyFoo().then(log);
 }
 
 async function asyncTimeout(delay = 100) {
@@ -19,5 +19,5 @@ async function asyncTimeout(delay = 100) {
 
 async function fancyFoo() {
   await asyncTimeout(100);
-  return 'foo';
+  return 'Async FOO :)';
 }
