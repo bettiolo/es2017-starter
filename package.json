@@ -12,12 +12,14 @@
   },
   "scripts": {
     "dev": "nodemon --watch ./ --exec npm start",
-    "start": "DEBUG=app,app:* node ./index.js",
+    "start": "npm run lint -s && DEBUG=app,app:* node ./index.js",
     "lint": "echo 'Linting...' && eslint --cache ./"
   },
   "private": true,
   "dependencies": {
     "babel-core": "^6.5.1",
+    "babel-plugin-array-includes": "^2.0.3",
+    "babel-plugin-transform-exponentiation-operator": "^6.5.0",
     "babel-polyfill": "^6.5.0",
     "babel-preset-node5": "^10.5.0",
     "blocked": "^1.2.0",
