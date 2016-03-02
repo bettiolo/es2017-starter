@@ -1,4 +1,3 @@
 {
-  "presets": ["node5"],
-  "plugins": ["array-includes", "transform-exponentiation-operator"]
+  "presets": ["es2017"]
 }
